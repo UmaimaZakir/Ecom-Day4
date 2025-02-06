@@ -10,7 +10,7 @@ import { CgChevronRight } from 'react-icons/cg'
 import NavbarDark from '../components/navbarDark/page'
 import Footer from '../components/footer/page'
 
-export const CheckOut = () => {
+const CheckOut = () => {
     const [cartItems, setCartItems] = useState<Product[]>([])
     const [discount, setDiscount] = useState<number>(0)
     const [formValues, setFormValues] = useState({
