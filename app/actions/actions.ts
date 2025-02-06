@@ -1,4 +1,4 @@
-import { product } from "@/sanity/schemaTypes/product";
+
 import { Product } from "@/types/products";
 
 

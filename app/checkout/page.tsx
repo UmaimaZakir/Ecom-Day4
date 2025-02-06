@@ -2,7 +2,7 @@
 import { Product } from '@/types/products'
 import React, { useEffect, useState } from 'react'
 import { getCartItems } from '../actions/actions'
-import { error } from 'console'
+
 import { urlFor } from '@/sanity/lib/image'
 import Image from 'next/image'
 import Link from 'next/link'

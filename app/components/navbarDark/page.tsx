@@ -2,7 +2,7 @@
 import { FaInstagram, FaYoutube, FaFacebookF, FaTwitter, FaSearch, FaShoppingCart, FaHeart, FaUserAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import { CgChevronDown } from 'react-icons/cg';
 import Link from 'next/link';
-import { useState } from 'react';
+
 
 
 

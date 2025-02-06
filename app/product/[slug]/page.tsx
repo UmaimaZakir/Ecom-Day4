@@ -33,7 +33,7 @@ async function getProduct(slug: string): Promise<Product> {
 
 export default function ProductPage({ params }: ProductPageProps) {
     const [product, setProduct] = useState<Product | null>(null);
-    const [isInCart, setIsInCart] = useState(false);
+    // const [isInCart, setIsInCart] = useState(false);
     const [isInWishlist, setIsInWishlist] = useState(false);
     const [showFullDescription, setShowFullDescription] = useState(false);
     // You can replace this with dynamic routing logic if needed

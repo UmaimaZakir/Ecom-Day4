@@ -2,7 +2,7 @@
 
 import { Product } from '@/types/products';
 import React, { useEffect, useState } from 'react';
-import { getCartItems, removeFromCart, removeFromCart as removeFromCartAction, updateCartQuantity } from '../actions/actions';
+import { getCartItems, removeFromCart, updateCartQuantity } from '../actions/actions';
 
 import Swal from 'sweetalert2';
 import Image from 'next/image';

@@ -39,7 +39,7 @@
 "use client"
 import { client } from "@/sanity/lib/client"
 import { urlFor } from "@/sanity/lib/image"
-import { allProducts, eight } from "@/sanity/lib/query"
+import { allProducts} from "@/sanity/lib/query"
 import { Product } from "@/types/products"
 import { useEffect, useState } from "react"
 import Image from "next/image"
