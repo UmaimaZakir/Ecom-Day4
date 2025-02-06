@@ -44,8 +44,8 @@ import { Product } from "@/types/products"
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { addToCart } from "@/app/actions/actions"
-import Swal from "sweetalert2"
+// import { addToCart } from "@/app/actions/actions"
+// import Swal from "sweetalert2"
 
 const Clothes = () => {
     const [product, setProduct] = useState<Product[]>([])
